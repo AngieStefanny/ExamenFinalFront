@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    background-color: #E5E5E5;
+}
+
+header{
+    
+    position: relativa;
+    width: 100%;
+    display: flex;
+    
+}
+
+.logo{
+
+    position: absolute;
+    top: 75.13px;
+    Width: 120.34px;
+    Left: 5vw;
+
+}
+
+.hamburguesa{
+    
+  
+    position: absolute;
+    top: 75.13px;
+    right: 5vw;
+    border-style:none;
+
+}
+
+
+
+.boton1Web{
+
+    background-color: rgba(243, 96, 59, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 50px;
+    border-style:none;
+
+    position: absolute;
+    Width:134px;
+    height: 44px;
+    right: 5vw;
+    top: 60px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+   
+}
+
+.section2{
+  
+        position: relative;
+        top: 20vh;
+        width: 100%;
+       
+}
+
+.h1 {
+
+        position: absolute;
+        top: 320vh;
+        width: 100%;
+        font-family: ;
+        Width:439px;
+        Height: 198px;
+        font-family: Be Vietnam,Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 58px;
+        line-height: 66px;
+        display: flex;
+        align-items: center;
+        color: rgba(35, 44, 80, 1);
+
+
+}
+
+
+
+@media (min-width: 541px){
+
+    
+
+        /* header web*/
+    
+        .boton1Web{
+    
+        display: inline
+
+        }
+        .menua{ 
+
+        display: inline;
+    
+            left: 25vw;
+            top:75.13px;
+            width: 382px;
+            font-family: Be Vietnam; 
+            font-size: 13px;
+            color: rgba(36, 46, 82, 1);
+            font-weight: 500px;
+           
+        
+            position: absolute;
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+            
+    }
+
+    .section2{
+        width:50%
+    }
+
+        /*header mobile*/
+        .hamburguesa{
+
+            display: none;
+    
+        }
+
+       
+
+    }
+   
+    @media  (max-width: 540px){
+
+      
+    header{
+        align-content: space-between;
+    }
+
+    /* header web*/
+
+    .boton1Web{
+    
+        display: none;
+
+    }
+
+    .menua{ 
+
+        display: none;}
+
+     /*header mobile*/
+     
+
+}
+
+
+
